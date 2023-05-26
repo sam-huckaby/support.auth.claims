@@ -23,7 +23,7 @@ export default function Home() {
     return () => {
       clearInterval(interval);
     };
-  }, []);
+  }, [gradient]);
 
   return (
     <main className="flex min-h-screen min-w-screen flex-row justify-center items-center">
